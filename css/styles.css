@@ -11,6 +11,9 @@ body {
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +50,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: auto;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -205,7 +209,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
