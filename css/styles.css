@@ -67,6 +67,16 @@ header {
   text-transform: uppercase;
   margin-top: auto;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -317,7 +327,7 @@ nav h1 a {
   .inside #map-container {
     width: 50%;
     height: 661px;
-    top: 100px;
+
   }
 
   .inside #map {
