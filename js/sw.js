@@ -92,19 +92,19 @@ self.addEventListener('fetch', function(event) {
 //     )
 // });
 // code from example wittr tutorial
-// let staticCacheName = "restaurant-files-v1";
-//
-// self.addEventListener('activate', function(event){
-//     event.waitUntil(
-//         caches.keys().then(function (cacheNames) {
-//             return Promise.all(
-//                 cacheNames.filter(function (cacheName) {
-//                     return cacheName.startsWith('restaurant-') && cacheName !== staticCacheName;
-//                 }).map(function (cacheName) {
-//                     return caches.delete(cacheName);
-//                 })
-//             );
-//         })
-//     )
-// });
+let staticCacheName = "restaurant-files-v1";
+
+self.addEventListener('activate', function(event){
+    event.waitUntil(
+        caches.keys().then(function (cacheNames) {
+            return Promise.all(
+                cacheNames.filter(function (cacheName) {
+                    return cacheName.startsWith('restaurant-') && cacheName !== staticCacheName;
+                }).map(function (cacheName) {
+                    return caches.delete(cacheName);
+                })
+            );
+        })
+    )
+});
 

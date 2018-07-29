@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83149548-6f0a-4a85-ad03-fe58e6c362f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sw.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="sw.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/sw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="299">
+              <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -28,7 +27,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="368">
-                <caret line="16" column="242" lean-forward="true" selection-start-line="16" selection-start-column="231" selection-end-line="16" selection-end-column="258" />
+                <caret line="16" column="242" selection-start-line="16" selection-start-column="231" selection-end-line="16" selection-end-column="258" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -204,12 +203,12 @@
       <workItem from="1532750081423" duration="2366000" />
       <workItem from="1532815507714" duration="2648000" />
       <workItem from="1532820430564" duration="989000" />
-      <workItem from="1532821626028" duration="2295000" />
+      <workItem from="1532821626028" duration="3131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27954000" />
+    <option name="totallyTimeSpent" value="28790000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -222,7 +221,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32896176" />
@@ -693,7 +691,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="368">
-            <caret line="16" column="242" lean-forward="true" selection-start-line="16" selection-start-column="231" selection-end-line="16" selection-end-column="258" />
+            <caret line="16" column="242" selection-start-line="16" selection-start-column="231" selection-end-line="16" selection-end-column="258" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -703,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        <state relative-caret-position="299">
+          <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
         </state>
       </provider>
     </entry>
